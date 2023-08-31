@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Norican', cursive;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #9ad6eb, #7ec4e7, #b9b7e2, #e79fb7);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 1rem;
+}
+
+.imagen {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 200px;
+    height: 200px;
+ }
+
+.videos {
+    width: 350;
+    height: 300;
+ }
+
+ h1 {
+    text-align: center;
+ }
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+/* Libros destacados */
+.destacados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.libro {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f5f5f5;
+}
+
+
